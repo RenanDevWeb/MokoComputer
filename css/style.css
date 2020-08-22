@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
   
 }
 
@@ -42,6 +42,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+     list-style: none;
 }
 .menu nav ul li{
     margin-right: 20px;
@@ -64,5 +65,127 @@ body{
 
 .box-produtos{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.box-produtos h2{
+    margin-top: 5px;
+}
+.box-produtos  hr{
+    border: 1px solid #000;
+    width: 100px;
+}
+
+.produtos-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 3%;
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin-top: 0;
+    
+}
+
+
+.produtos .foto1{
+    background-image: url('../img/computador-quebrado.jpg');
+    background-size: cover;
+    width: 30vw;
+    height: 40vh;
+    margin-right: 5%;
+    border-radius:10px;
+}
+
+.produtos .descrisao1 h3{
+    font-size: 24px;
+    text-align: center;
+}
+.produtos .descrisao1{
+    margin-left: 1%;
+    color: #000;
+    font-size: 18px;
+}
+.produtos .descrisao1 ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.produtos .descrisao2 h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+.produtos .descrisao2{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+.produtos .descrisao2 ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.produtos .foto2{
+    background-image: url('../img/camera.jpg');
+    background-size: cover;
+    width: 30vw;
+    height: 40vh;
+    margin-left: 13%;
+    border-radius:10px;
+}
+
+.produtos .foto3{
+    background-image: url('../img/background1.jpg');
+    background-size: cover;
+    width: 30vw;
+    height: 40vh;
+    margin-right: 9%;
+    border-radius:10px;
+}
+
+.produtos .descrisao3 h3{
+    font-size: 24px;
+    text-align: center;
+}
+.produtos .descrisao3{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+.produtos .descrisao3 ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.produtos .descrisao4 h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+.produtos .descrisao4{
+    color: #000;
+    font-size: 18px;
+}
+.produtos .descrisao4 ul{
+    list-style: none;
+    text-align: center;
+}
+
+.produtos .foto4{
+    background-image: url('../img/softwaredev.jpg');
+    background-size: cover;
+    width: 30vw;
+    height: 40vh;
+    margin-left: 5%;
+    border-radius:10px;
 }
