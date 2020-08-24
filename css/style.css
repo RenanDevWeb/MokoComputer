@@ -240,8 +240,6 @@ body{
 }
 .box-informacoes p{
     margin-top: 10px;
-  
-
 }
 .box-informacoes .fotos{
     display: flex;
@@ -258,4 +256,41 @@ body{
 .box-informacoes .fotos .foto1 img{
     margin-top: 10px;
     border-radius: 10%;
+}
+.box-informacoes .fotos .foto2{
+    margin-top: 10px;
+    border-radius: 50px;
+ 
+}
+.box-informacoes .fotos .foto2 img{
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.contato{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato .contato-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.contato .contato-form form{
+    display: flex;
+    flex-direction: column;
+}
+.redes-sociais{
+  
+    border: 1px solid #000;
+}
+.redes-sociais ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0px;
 }
