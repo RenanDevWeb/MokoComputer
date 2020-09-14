@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moko Computer</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/medias.css">
 </head>
 <body>
     <div class="box1">
@@ -33,7 +34,7 @@
 
         <div class="produtos-wrapper">
             <div class="produtos">
-                <div class="foto1"></div>
+                <div><img src="./img/computador.png"  class="foto1" alt=""></div>
                   <div class="descrisao1">
                          <h3>Manutenção de Computadores</h3>
                         <br>
@@ -48,26 +49,27 @@
 
         <div class="produtos-wrapper">
             <div class="produtos">
-                  <div class="descrisao2">
-                    <h3>Edição de video</h3>
-                    <br>
-                    <ul>
-                        <li>Videos para youtube</li>
-                        <li>Videos curtos</li>
-                     
-                    </ul>
+              
+                  <div class="descrisao1">
+                         <h3>Edição de Video</h3>
+                        <br>
+                        <ul>
+                            <li>Videos para o youtube</li>
+                            <li>Videos de formatura</li>
+                            <li>Vinhetas</li>
+                        </ul>
                   </div>
-
-                  <div class="foto2"></div>
-            </div>
+                  <div><img src="./img/camera.jpg"  class="foto1" alt=""></div>
+                </div>
         </div>
 
 
-        <div class="produtos-wrapper">
+       <div class="produtos-wrapper">
             <div class="produtos">
-                <div class="foto3"></div>
-                  <div class="descrisao3">
-                         <h3>Configuração de Internet</h3>
+                <div><img src="./img/internet.png"  class="foto1" alt=""></div>
+                  <div class="descrisao1">
+                        
+                          <h3>Configuração de Internet</h3>
                         <br>
                         <ul>
                             <li>Configuração de roteadores</li>
@@ -80,7 +82,8 @@
 
         <div class="produtos-wrapper">
             <div class="produtos">
-                  <div class="descrisao4">
+              
+                <div class="descrisao4">
                     <h3>Desenvolvimento de Software</h3>
                     <br>
                     <ul>
@@ -89,12 +92,14 @@
                         <li>Sites Responsivos</li>
                     </ul>
                   </div>
-
-                  <div class="foto4"></div>
-            </div>
+                  <div><img src="./img/dev.png"  class="foto1" alt=""></div>
+                </div>
         </div>
         
-    </div>
+       
+
+
+        
     
 
  </main>
@@ -134,21 +139,18 @@
 
 
         <div class="contato-form">
-            <form action="action_page.php">
+            <form action="">
 
                 <label for="fname">Nome</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            
-                
-            
-                <label for="country">Assunto</label>
-                <select id="country" name="country">
-                  <option value="australia">Conserto de computadores</option>
-                  <option value="canada">Edição de video</option>
-                  <option value="usa">Desenvolvimento</option>
+                <input type="text" id="fname" name="nome" placeholder="Seu Nome">            
+                <label for="assunto">Assunto</label>
+                <select id="country" name="assunto">
+                  <option value="conserto">Conserto de computadores</option>
+                  <option value="edicao">Edição de video</option>
+                  <option value="desenvolvimento">Desenvolvimento</option>
                 </select>
             
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                <textarea id="subject" name="subject"  style="height:100px"></textarea>
                 <input type="submit" value="Enviar">
               </form>
         </div>
@@ -157,14 +159,14 @@
         </div>
         <div class="redes-sociais">
             <ul>
-                <li><img src="./img/instagram.png" alt="" width="60px" height="60px"> </li>
+                <li><a href="https://www.instagram.com/mokocomputerinformatica/"><img src="./img/instagram.png" alt="" width="60px" height="60px"> </a></li>
                 <li> <img src="./img/whats.png" alt="" width="60px" height="60px" ></li>
             </ul>
     </div>
 </section>
 
 <footer>
-    <p>Copyright © 2020 Mago do M15 - Todos os direitos reservados</p>
+    <p>Copyright © 2020 Moko Computer - Todos os direitos reservados</p>
 </footer>
 </body>
 </html>

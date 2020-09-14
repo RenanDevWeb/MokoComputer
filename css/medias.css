@@ -1,0 +1,116 @@
+@media only screen and (max-width: 400px) {
+    body {  
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .box1{
+        height: 50vh;
+        width: 100%;
+    }
+   
+    .box1-1{
+        margin-left: 120px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .menu nav{
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .menu nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .menu nav ul li{
+        margin-right: 20px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .box-produtos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 175vh;
+        margin: 0;
+       
+    }
+    
+    .box-produtos  hr{
+        border: 1px solid #000;
+        width: 100px;
+    }
+
+
+    .produtos{
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center; 
+    }
+    
+    
+     .foto1{
+        width: 200vw;
+        height: 40vh;
+        border-radius:10px;
+    } 
+     
+    .produtos .descrisao1 h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .produtos .descrisao1{
+        color: #000;
+        font-size: 18px;
+    }
+    .produtos .descrisao1 ul{
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    
+    
+
+    .quem-somos h3{
+        margin-top: 10px;
+    
+    }
+    
+
+    .box-informacoes .fotos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    
+    .footer{
+        font-size: 18px;
+    }
+
+
+
+
+    
+  
+
+
+ 
+  }
